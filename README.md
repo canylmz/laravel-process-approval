@@ -9,7 +9,10 @@
 This package enables multi-level approval workflows for Eloquent models in your Laravel application. If you have models
 that require review and approval from multiple approvers before execution, this package provides a flexible approval
 process to meet that need.
-> Laravel 10.0 or later
+
+> Supports Laravel 10.x, 11.x, and 12.x
+
+> This package is forked from [@ringlesoft/laravel-process-approval](https://github.com/ringlesoft/laravel-process-approval) with added Laravel 12 support.
 
 The package relies on an existing `Role` management. This can be a custom role management or another package such as
 Spatie's `laravel permissions`.
