@@ -1,6 +1,17 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.0.0] - 2024-03-XX
+
+### Added
+- Initial release
+- Laravel 12.x support
+- PHP 8.2+ requirement
+
+### Compatibility
+- Supports Laravel 10.x, 11.x, and 12.x
+- Requires PHP 8.2 or higher
+
 ## [2.0.0] - 2024-03-XX
 
 ### Added

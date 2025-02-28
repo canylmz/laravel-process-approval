@@ -19,12 +19,16 @@ Spatie's `laravel permissions`.
 
 <img src="https://ringlesoft.com/images/packages/approvals2.png" alt="Approvals Screenshot" />
 
+## Requirements
+- PHP 8.2 or higher
+- Laravel 10.x, 11.x, or 12.x
+
 ## Installation
 
 #### 1. Install Using composer:
 
 ```bash
-composer require ringlesoft/laravel-process-approval
+composer require canylmz/laravel-process-approval
 ```
 
 #### 2. Publish Files (Optional)
@@ -33,14 +37,14 @@ This package provides publishable files that include configuration, migrations a
 using the following command:
 
 ```bash
-php artisan vendor:publish --provider="RingleSoft\LaravelProcessApproval\LaravelProcessApprovalServiceProvider" 
+php artisan vendor:publish --provider="Canylmz\LaravelProcessApproval\LaravelProcessApprovalServiceProvider" 
 ```
 
 You can publish specific files by providing the ```--tag``` option within the publish command. Available options
 are ```approvals-migrations```, ```approvals-config```, ```approvals-views```, ```approvals-translations```. <br> For example:
 
 ```bash
-php artisan vendor:publish --provider="RingleSoft\LaravelProcessApproval\LaravelProcessApprovalServiceProvider" --tag="approvals-migrations" 
+php artisan vendor:publish --provider="Canylmz\LaravelProcessApproval\LaravelProcessApprovalServiceProvider" --tag="approvals-migrations" 
 ```
 
 #### 3. Run migration:
@@ -159,7 +163,7 @@ You can publish the configuration file of this package, `process_approval.php`, 
 your specific requirements. If you wish to publish the files, use the following command:
 
 ```bash
-php artisan vendor:publish --provider="RingleSoft\LaravelProcessApproval\LaravelProcessApprovalServiceProvider" --tag="approvals-config"
+php artisan vendor:publish --provider="Canylmz\LaravelProcessApproval\LaravelProcessApprovalServiceProvider" --tag="approvals-config"
 ```
 
 ### Configurable parameters
