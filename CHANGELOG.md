@@ -1,6 +1,23 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [2.0.0] - 2024-03-XX
+
+### Added
+- Laravel 12.x support
+- PHP 8.2+ requirement
+
+### Changed
+- Updated minimum Laravel version to 12.0
+- Updated composer dependencies
+- Updated illuminate packages to support Laravel 12
+
+### Compatibility
+- Now supports Laravel 10.x, 11.x, and 12.x
+- Requires PHP 8.2 or higher
+
+## [1.0.9] - Previous version
+
 ## [1.0.8] - 2024-07-15
 ### Added
 - Support for Multi-Tenancy ([#24](https://github.com/ringlesoft/laravel-process-approval/issues/24))
