@@ -1,27 +1,26 @@
 {
-    "name": "ringlesoft/laravel-process-approval",
-    "description": "A package to handle process approval flow in a laravel application.",
+    "name": "canylmz/laravel-process-approval",
+    "description": "A package to handle process approval flow in a laravel application with Laravel 12.x support.",
     "type": "laravel-package",
-    "homepage": "https://ringlesoft.com/packages/laravel-process-approval",
+    "homepage": "https://github.com/canylmz/laravel-process-approval",
     "license": "MIT",
     "keywords": [
-        "ringlesoft",
         "approval",
         "approve",
         "flow",
         "procedure",
-        "laravel"
+        "laravel",
+        "laravel12"
     ],
     "autoload": {
         "psr-4": {
-            "RingleSoft\\LaravelProcessApproval\\": "src/"
+            "Canylmz\\LaravelProcessApproval\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "David Ringle",
-            "email": "ringunger@gmail.com",
-            "homepage": "https://ringlesoft.com",
+            "name": "Can Yılmaz",
+            "email": "canylmz6134@gmail.com",
             "role": "Developer"
         }
     ],
@@ -40,10 +39,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "RingleSoft\\LaravelProcessApproval\\LaravelProcessApprovalServiceProvider"
+                "Canylmz\\LaravelProcessApproval\\LaravelProcessApprovalServiceProvider"
             ],
             "aliases": {
-                "ProcessApproval": "RingleSoft\\LaravelProcessApproval\\Facade"
+                "ProcessApproval": "Canylmz\\LaravelProcessApproval\\Facade"
             },
             "dont-discover": [
             ]
@@ -54,7 +53,7 @@
             "name": "master"
         }
     },
-    "version": "1.0.9",
+    "version": "1.0.0",
     "minimum-stability": "dev",
     "prefer-stable": true
 }
